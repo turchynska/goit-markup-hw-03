@@ -171,7 +171,7 @@ img{
 }
 
 
-.visually-hidden {
+.visually-hidden{
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -242,7 +242,6 @@ img{
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 
@@ -272,7 +271,7 @@ img{
 }
 
 .portfolio{
-    padding: 120px 156px 120px 156px;
+    padding: 120px 0 120px 0;
 }
 
 .portfolio-title{
@@ -286,7 +285,7 @@ img{
     max-width: 218px;
     margin: 0 auto;
     margin-bottom: 72px;
-    padding-top: 120px;
+
   
 }
 
@@ -315,9 +314,8 @@ img{
 }
 
 .portfolio-container{
-    padding-top: 32px;
-padding-right: 226px;
-padding-left: 16px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
 
 }
 
@@ -334,7 +332,7 @@ padding-left: 16px;
 
 .footer{
     background: #2e2f42;
-    padding: 100px 1020px 100px 156px;
+    padding: 100px 0 100px;
 }
 
 .footer-logo{
@@ -345,6 +343,8 @@ padding-left: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-part{
@@ -357,5 +357,5 @@ padding-left: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-top: 16px;
+    max-width: 264px
 }
