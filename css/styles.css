@@ -3,12 +3,13 @@ body{
     color: #434455;
     background-color: #FFFFFF;
 }
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 0;
     margin-top: 0;
 }
 a{
     text-decoration: none;
+    color: currentColor;
 }
 
 ul{
@@ -22,6 +23,36 @@ address{
     font-style: normal;
 }
 
+button{
+    cursor: pointer;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    width: 1128;
+    padding: 0 15px;
+    margin: 0 auto;
+} 
+
+.header-container{
+  display: flex;
+  align-items: center;
+}
+
+.header{
+    border-bottom: 1px solid #e7e9fc;
+    width: 1440px;
+    height: 72px;
+}
+.header-navigation{
+    display: flex;
+    align-items: center;
+}
+
 .header-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -30,10 +61,16 @@ address{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:  #4d5ae5;
+    margin-right: 76px;
 }
 
 .header-logo-part{
     color: #2e2f42
+}
+
+.header-list{
+    display: flex;
+    gap: 40px;
 }
 
 .header-link:hover{
@@ -50,7 +87,14 @@ address{
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #2e2f42;
+   padding: 24px 0;
+   display: block;
 }
+
+.contacts-container{
+    display: flex;
+    gap: 40px;
+}  
 
 .contacts-link:hover{
     color: #404bbf;  
@@ -62,6 +106,7 @@ address{
 
 .contacts{
     font-style: normal;
+    margin-left: auto;
 }
 
 .contacts-link{
@@ -70,10 +115,18 @@ address{
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
+   display: flex;
+}
+
+.wrapper{
+   padding: 180;
+   
 }
 
 .hero{
-   background: #2e2f42;
+  padding-top: 180px;
+  padding-bottom: 292px;
+  background: #2e2f42;
 }
 
 
@@ -84,11 +137,11 @@ address{
    letter-spacing: 0.02em;
    text-align: center;
    color: #fff;
+   max-width: 496px;
+   margin: 0 auto;
+   margin-bottom: 48px;
 }
 
-button{
-    cursor: pointer;
-}
 
 .hero-btn:hover{
     background-color: #404BBF;
@@ -105,6 +158,15 @@ button{
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4D5AE5;
+    border-radius: 4px;
+    padding: 16px 32px;
+    border: none;
+}
+
+.button-order{
+    padding-right: 635px;
+    padding-left: 635px ;
+    margin: 0 auto;
 }
 
 .visually-hidden {
@@ -114,7 +176,18 @@ button{
     overflow: hidden;
   }
 
+.about-list{
+    display: flex;
+}
 
+.about{
+    padding: 120px 156px 120px 156px;
+}
+
+.about-item{
+    margin-right: 24px;
+    max-width: 264px;
+}
 
 .about-title{
     font-weight: 500;
@@ -122,6 +195,7 @@ button{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .about-text{
@@ -134,10 +208,20 @@ button{
 
 .team{
     background-color: #F4F4FD;
+    padding-right: 156px;
+    padding-bottom: 120px;
+    padding-left: 156px;
+}
+
+.team-list{
+    display: flex;
+    gap: 24px;
 }
 
 .team-item{
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+
 }
 
 .team-title{
@@ -148,6 +232,8 @@ button{
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    padding-top: 120px;
+    margin-bottom: 72px;
 }
 
 .team-caption{
@@ -168,6 +254,10 @@ button{
     color: #434455;
 }
 
+.portfolio{
+    padding: 120px 156px 120px 156px;
+}
+
 .portfolio-title{
     font-weight: 700;
     font-size: 36px;
@@ -176,6 +266,26 @@ button{
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    max-width: 218px;
+    margin: 0 auto;
+    margin-bottom: 72px;
+    padding-top: 120px;
+  
+}
+
+.portfolio-list{
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 24px;
+   row-gap: 48px;
+
+}
+
+.portfolio-item{
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    max-width: 360px;
 }
 
 .portfolio-caption{
@@ -184,7 +294,16 @@ button{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
+
+.portfolio-container{
+    padding-top: 32px;
+padding-right: 226px;
+padding-left: 16px;
+
+}
+
 
 .portfolio-text{
     font-weight: 400;
@@ -192,10 +311,13 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-bottom: 32px;
 }
+
 
 .footer{
     background: #2e2f42;
+    padding: 100px 1020px 100px 156px;
 }
 
 .footer-logo{
@@ -218,4 +340,5 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    margin-top: 16px;
 }
