@@ -122,13 +122,10 @@ img{
    display: flex;
 }
 
-.wrapper{
-   padding: 180;
-}
+
 
 .hero{
-  padding-top: 180px;
-  padding-bottom: 292px;
+    padding: 188px 0 188px; 
   background: #2e2f42;
 }
 
@@ -154,23 +151,25 @@ img{
     background-color: #404BBF;
 }
 
-.hero-btn{
+.button{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background-color: #4D5AE5;
-    border-radius: 4px;
-    padding: 16px 32px;
-    border: none;
-}
-
-.button-order{
+    background-color: #4d5ae5;
     padding-right: 635px;
     padding-left: 635px ;
     margin: 0 auto;
+    display: block;
+    min-width: 169px
+    border-radius: 4px;
+    padding: 16px 32px;
+    border: none;
+    height: 56px;
+    cursor: pointer;
 }
+
 
 .visually-hidden {
     white-space: nowrap;
