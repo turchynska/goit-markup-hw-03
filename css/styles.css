@@ -144,7 +144,7 @@ img{
 
 
 .hero-button-service:hover,
-.hero-button-service:focus
+.service-button-type:focus
 {
     background-color: #404BBF;
 }
@@ -250,30 +250,26 @@ img{
     margin-bottom: 72px;
 }
 
-.team-caption{
+
+.team-caption-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center; 
+    margin-bottom: 8px
 }
-
-.title-team{
-    text-align: center;
-    margin-bottom: 8px;
-}
-
-.team-text{
+ 
+.team-text-copy{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-
-.text-container{
     text-align: center;
 }
+
 
 .portfolio{
     padding: 120px 0 120px 0;
