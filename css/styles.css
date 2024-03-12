@@ -66,6 +66,8 @@ img{
     text-transform: uppercase;
     color:  #4d5ae5;
     margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-logo-part{
@@ -98,6 +100,8 @@ img{
 .contacts-container{
     display: flex;
     gap: 40px;
+   
+  
 }  
 
 .contacts-link:hover{
@@ -119,7 +123,9 @@ img{
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
-   display: flex;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   display: block;
 }
 
 
@@ -191,7 +197,7 @@ img{
 
 .about-item{
     margin-right: 24px;
-    max-width: 264px;
+    gap: 24px;
     width: calc((100% - 72px) / 4);
 }
 
@@ -281,11 +287,7 @@ img{
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    max-width: 218px;
-    margin: 0 auto;
     margin-bottom: 72px;
-
-  
 }
 
 .portfolio-list{
@@ -297,10 +299,7 @@ img{
 }
 
 .portfolio-item{
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
-    max-width: 360px;
+  width: calc ((100% -48) /3);
 }
 
 .portfolio-caption{
@@ -326,7 +325,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-bottom: 32px;
+
 }
 
 
